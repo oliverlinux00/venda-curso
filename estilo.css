@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,4 +47,48 @@ table {
 body {
     background-image: url("images/foto_Gelato1.jpg");
     background-size: cover;
+}
+
+.conteudo {
+	background-color: rgba(255,255,255, 0.5);
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.titulo {
+	font-size: 58px;
+	padding-bottom: 3px;
+	letter-spacing: 5px;
+	font-family: Impact;
+	font-family: "Poppins";
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.subtitulo {
+	font-size: 30px;
+	font-family: "Poppins";
+	font-weight: 200;
+}
+
+.linha {
+	border: 1px solid black;
+	width: 600px;
+}
+
+.texto {
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "Nunito";
+	font-weight: 400;
+	text-align: justify;
+	width: 600px;
+}
+
+.meu-video {
+	width: 400px;
 }
