@@ -91,4 +91,20 @@ body {
 
 .meu-video {
 	width: 400px;
+	border-radius: 5px;
+}
+
+.botao-comprar {
+	display: flex;
+	color: white;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	width: 200px;
+	border: 3px double white;
+	background-color: black;
+	border-radius: 10px;
+	margin-top: 20px;
+	font-size: 22px;
 }
